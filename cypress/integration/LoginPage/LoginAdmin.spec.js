@@ -5,7 +5,7 @@ import LoginPages from  "./LoginPages";
 const login = new LoginPages()
 
 
-Given('I navigate to the website',()=>{
+Given('I navigate to website',()=>{
 
     login.navigate()
 })
